@@ -9,7 +9,7 @@ import pandas as pd
 
 #loading .mat data
 folder='/Users/mnivota/OneDrive/College Prep/Polygence/MatLab/'
-data = io.loadmat(folder + 'Lab5_CenterOutTrain.mat')
+data = io.loadmat(folder + 'Raw_Neural_Data.mat')
 
 #separating different parts of data into vars
 units = data['unit'] #load units (matrix with timee, labels, etc. for 143 neurons)
